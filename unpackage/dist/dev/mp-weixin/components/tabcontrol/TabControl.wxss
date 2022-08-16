@@ -1,0 +1,24 @@
+
+.tabControl.data-v-46838278{
+        display: flex;
+		background-color: white;
+        text-align: center;
+		white-space: nowrap;
+}
+.tab-control-item.data-v-46838278{
+        flex: 1;
+		width: 145rpx;
+        height: 60rpx;
+        line-height: 60rpx;
+        font-size: 30rpx;
+        margin-left: 15rpx;
+        margin-right: 15rpx;
+		box-sizing: border-box;
+}
+.ActiveRed.data-v-46838278{
+        color:red;
+        border-bottom: red solid 6rpx ;
+        padding-bottom: 10rpx;
+}
+
+

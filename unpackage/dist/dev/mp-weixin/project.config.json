@@ -1,0 +1,33 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx8e6d3154221bb145",
+  "projectname": "music-cloud",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
+  }
+}

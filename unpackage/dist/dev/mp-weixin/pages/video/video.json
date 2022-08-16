@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "发现视频",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tabcontrol": "/components/tabcontrol/TabControl"
+  }
+}

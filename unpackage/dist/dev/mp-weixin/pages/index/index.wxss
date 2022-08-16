@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  width: 100%;
+}
+.rank {
+  padding: 20rpx;
+}
+.rank .rankSwiper {
+  height: 450rpx;
+  background-color: #fbfbfb;
+  padding: 0 20rpx;
+  margin: 20rpx 0 0 -20rpx;
+}
+.rank .rankSwiper .swiperItem {
+  width: 96%;
+}
+.rank .rankSwiper .swiperItem .title {
+  font-size: 30rpx;
+  line-height: 80rpx;
+}
+.rank .rankSwiper .swiperItem .musicItem {
+  display: flex;
+  margin-top: 20rpx;
+}
+.rank .rankSwiper .swiperItem .musicItem image {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 7rpx;
+}
+.rank .rankSwiper .swiperItem .musicItem .count {
+  height: 100rpx;
+  width: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.rank .rankSwiper .swiperItem .musicItem .musicName {
+  height: 100rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+

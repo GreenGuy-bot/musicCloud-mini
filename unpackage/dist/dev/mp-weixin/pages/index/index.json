@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "与天云音乐",
+  "usingComponents": {
+    "index-swiper": "/pages/index/indexChild/indexSwiper",
+    "nav-icon": "/pages/index/indexChild/navIcon",
+    "recommend": "/pages/index/indexChild/recommend",
+    "nav-bar": "/components/navBar/navBar"
+  }
+}

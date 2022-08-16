@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.recommendSongContainer .header {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.recommendSongContainer .header image {
+  height: 100%;
+  width: 100%;
+}
+.recommendSongContainer .header .date {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 35rpx 0 0 35rpx;
+  width: 300rpx;
+  height: 100rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 38rpx;
+}
+.recommendSongContainer .listContainer {
+  position: relative;
+  top: -20rpx;
+  padding: 0 20rpx;
+  border-radius: 30rpx;
+  background-color: #f5f5f5;
+}
+.recommendSongContainer .listContainer .listHeader {
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.recommendSongContainer .listContainer .listHeader .changeMore {
+  float: right;
+}
+.recommendSongContainer .listContainer .listScroll {
+  height: calc(100% - 380rpx);
+}
+.recommendSongContainer .listContainer .listScroll .listItem {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 25rpx;
+}
+.recommendSongContainer .listContainer .listScroll .listItem image {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 8rpx;
+}
+.recommendSongContainer .listContainer .listScroll .listItem .musicIfon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.recommendSongContainer .listContainer .listScroll .listItem .musicIfon text {
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  max-height: 400rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recommendSongContainer .listContainer .listScroll .listItem .iconfont {
+  position: absolute;
+  right: 0;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: right;
+}
+

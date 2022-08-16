@@ -1,0 +1,1 @@
+<view><view class="navContainer"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index"><view class="navItem"><text class="{{[item[0]]}}"></text><text>{{item[1]}}</text></view></block></view></view>
